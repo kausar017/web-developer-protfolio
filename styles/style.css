@@ -1,0 +1,167 @@
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.open-sans-normal-font {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  /* header style */
+  .header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    /* background-size: 100px; */
+    background-position: top left, bottom right;
+    
+  }
+  
+/* shered style */
+.secendary-bg{
+    background-color: #FFF8F3;
+}
+.text-center{
+    text-align: center;
+    margin: 20px;
+}
+.text-praymari{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav ul a{
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 36px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+/* bannar style */
+.bannar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.bannar-container{
+    width: 580px;
+}
+.bannar-greetings{
+    font-size: 25px;
+    font-weight: 400px;
+}
+.bannar-title{
+    font-weight: bold;
+    font-size: 55px;
+}
+.bannar-profile-pic{
+    width: 400px;
+}
+/* main-styles */
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.main-section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* about-styles */
+.about{
+    border-radius: 10px;
+    padding: 131px 156px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-discription{
+    /* font-size: 20px; */
+    font-weight: 600;
+}
+/* skills section styles */
+.skills-container{
+    display: flex;
+    gap: 25px;
+}
+.skill{
+    padding: 30px 33px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/* resumi section styles */
+.resume-column{
+    /* display: flex; */
+    text-align: left;
+    margin: 10px;
+    /* display: flex; */
+}
+.resume-box{
+    display: flex;
+    margin: 10px;
+}
+/* footer-column style  */
+.footer-column{
+    display: flex;
+    margin-top: 113px;
+    background-color: rgba(255, 248, 243, 1);
+}
+.footer-box, .input{
+    padding: 20px 30px;
+}
+.input-box input, .tx{
+    display: flex;
+    margin: 10px;
+    font-size: 16px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 3px 15px 0px;
+}
+.icon i{
+    padding: 10px;
+    color: #FD6E0A;
+    font-size: 2em;
+}
