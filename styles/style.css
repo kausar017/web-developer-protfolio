@@ -170,20 +170,26 @@ main{
     display: none;
 }
 @media screen and (max-width:576px){
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    .skills-container,.resume-box, .footer-column, .about-items{
-        background-color: rgb(245, 228, 231);
+
+
+    .skills-container,.resume-box, .footer-column, .about-items, .bannar{
         flex-direction: column;
         padding: 10px;
     }
-    .footer-column, .about{
+    .bannar, .header {
+        width: 100%;
+    }
+    .bannar, nav{
+        margin: 50px;
+    }
+    .footer-column, .about, .header secendary-bg, .bannar-discription{
         padding: 20px;
 
     }
     .input-box input, .tx {
         width: 80%;
+    }
+    .bannar-profile-pic{
+        width: 100%;
     }
 }
